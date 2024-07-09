@@ -1,0 +1,313 @@
+/* shared */
+a{
+  text-decoration: none; 
+}
+
+/* buttons */
+
+.btn-prim{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: red;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.btn-sec{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+/* header styling */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.062)), 
+        url(../assets/images/Banner\ Image.png) no-repeat center;
+    min-height: 600px;
+    max-width: 1320px;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+.banner-text-a{
+    font-size: 32px;
+    margin: 0px;
+}
+.banner-text-b{
+    font-size: 72px;
+    text-align: center;
+    margin: 0px;
+}
+
+/* body styling */
+/* discounts section */
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.discount-value{
+    font-size: 88px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: red;
+}
+.humble-brag{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+.beyond-brag{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+/* party invite */
+
+.banner-mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.062)), 
+        url(../assets/images/Vectorrr.png) no-repeat center;
+    min-height: 600px;
+    max-width: 1320px;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.banner-mid-txt{
+    margin-left: 100px;
+}
+.banner-mid-a{
+    font-size: 64px;
+}
+.banner-mid-b{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+.banner-mid-img{
+    margin-right: 100px;
+}
+
+/* invitation section */
+
+.invite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: 
+        linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    min-height: 482px;
+    max-width: 1320px;
+    color: black;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+/* offer details */
+
+.new-offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    gap: 50px;
+    max-width: 75%;
+}
+.offer-deets{
+    max-width: 26%;
+    margin-left: 0px;
+}
+.deets-mini{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    margin-bottom:0px;
+}
+.deets-mega{
+    margin-top: 10px;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.deets-deets{
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.new-offer-img{
+    max-width: 26%;
+}
+.offer-new{
+    width: 300px;
+    border: 12px solid red;
+    border-radius: 100%;
+    padding: 8%;
+}
+.year-thing{
+    max-width: 26%;
+}
+.deets-year{
+    font-size: 48px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* functionality thing styling */
+
+.functional{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 50px auto;
+    background: url(../assets/images/Rectangle\ 2.png) bottom no-repeat;
+    background-size: 100%;
+}
+.func-text{
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.func-img{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 50px;
+}
+.func-img-a{
+    max-width: 60%;
+}
+.func-img-b{
+    margin-top: 50px;
+    max-width: 25%;
+}
+
+/* portfolio */
+.portfolio{
+    max-width: 80%;
+    margin: 50px auto;
+}
+.port-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    max-width: 60%;
+    text-align: left;
+}
+.port-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.port-product-img{
+    max-width: 50%;
+    margin: 20px 0px;
+}
+
+/* newsletter */
+
+.newsletter{
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 100px auto;
+    padding: 100px 0px;
+}
+.newsletter-txt{
+    text-align: center;
+    max-width: 65%;
+    margin: 20px 0px;
+}
+.mail-sub{
+    display: flex;
+    gap: 0px;
+    margin: auto;
+    background-color: white;
+    border-radius: 50px;
+}
+.mail-box{
+    width: 440px;
+    height: 72px;
+    border: none;
+    font-size: 18px;
+    padding-left: 30px;
+    border-radius: 50px 0px 0px 50px;
+}
+.mail-btn{
+    width: 210px;
+    height: 72px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    background-color: red;
+    border-radius: 0 50px 50px 0%;
+}
+
+/* footer */
+
+footer{
+    background-color: #070211;
+    padding: 100px 0;
+}
+.footer{
+    max-width: 80%;
+    margin: 0px auto;
+}
+.toptext{
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.topright{
+    margin-right: 50px;
+}
+.bottomtext{
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px;
+}
